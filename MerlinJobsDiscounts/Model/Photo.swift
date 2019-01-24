@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Photo: Decodable {
+    let prefix: String
+    let suffix: String
+}

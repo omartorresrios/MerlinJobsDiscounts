@@ -29,7 +29,8 @@ class MainTabBarController: UITabBarController {
         completion(true)
         
         guard let items = tabBar.items else { return }
-        
+        items[0].title = "List"
+        items[1].title = "Map"
         for item in items {
             item.imageInsets = UIEdgeInsets(top: 4, left: 0, bottom: -4, right: 0)
         }

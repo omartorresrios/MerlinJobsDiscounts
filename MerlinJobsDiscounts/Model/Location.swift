@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import MapKit
+
+struct Location: Decodable {
+    let distance: Int?
+    let lat: CLLocationDegrees
+    let lng: CLLocationDegrees
+    let formattedAddress: Array<String>?
+}

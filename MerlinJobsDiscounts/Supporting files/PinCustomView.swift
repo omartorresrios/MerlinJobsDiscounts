@@ -8,31 +8,41 @@
 
 import UIKit
 
-class ImageCustomView: UIView {
+class PinCustomView: UIView {
     
-    let name: UILabel = {
+    var placePin: PlacePin! {
+        didSet {
+            pinNameLabel.text = placePin.title
+            if let imageUrl = placePin.image {
+                pinImageView.loadImage(urlString: imageUrl)
+            }
+        }
+    }
+    
+    let pinNameLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
-        label.backgroundColor = .green
-        label.font = UIFont.systemFont(ofSize: 15)
+        label.font = UIFont(name: "SFUIDisplay-Semibold", size: 14)
         return label
     }()
     
-    let image: CustomImageView = {
+    let pinImageView: CustomImageView = {
         let iv = CustomImageView()
         return iv
     }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setupViews()
+    }
+    
+    func setupViews() {
+        self.addSubview(pinNameLabel)
+        pinNameLabel.anchor(top: self.topAnchor, left: self.leftAnchor, bottom: nil, right: self.rightAnchor, paddingTop: 12, paddingLeft: 12, paddingBottom: 0, paddingRight: 12, width: 0, height: 0)
         
-        self.addSubview(name)
-        name.anchor(top: self.topAnchor, left: self.leftAnchor, bottom: nil, right: self.rightAnchor, paddingTop: 12, paddingLeft: 12, paddingBottom: 0, paddingRight: 12, width: 0, height: 0)
-        name.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
-        
-        self.addSubview(image)
-        image.anchor(top: name.bottomAnchor, left: nil, bottom: nil, right: nil, paddingTop: 12, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 120, height: 80)
-        image.centerXAnchor.constraint(equalTo: name.centerXAnchor).isActive = true
+        self.addSubview(pinImageView)
+        pinImageView.anchor(top: pinNameLabel.bottomAnchor, left: nil, bottom: nil, right: nil, paddingTop: 12, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 130, height: 80)
+        pinImageView.centerXAnchor.constraint(equalTo: pinNameLabel.centerXAnchor).isActive = true
     }
     
     required init?(coder aDecoder: NSCoder) {

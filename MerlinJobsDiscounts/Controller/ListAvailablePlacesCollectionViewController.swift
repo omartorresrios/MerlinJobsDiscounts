@@ -21,6 +21,7 @@ class ListAvailablePlacesCollectionViewController: UICollectionViewController, U
     }
     
     private func setupCollectionView() {
+        self.navigationItem.title = "Nearby places around you"
         collectionView.backgroundColor = UIColor.mainBlue()
         collectionView?.register(ListAvailablePlacesCollectionViewCell.self, forCellWithReuseIdentifier: listAvailablePlacesCellId)
         NotificationCenter.default.addObserver(self, selector: #selector(handleUpdateUserProfileFeed), name: updateCurrentLocationNotificationName, object: nil)

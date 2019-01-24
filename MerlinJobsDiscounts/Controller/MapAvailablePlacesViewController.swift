@@ -38,7 +38,7 @@ class MapAvailablePlacesViewController: UIViewController, MKMapViewDelegate {
         mapView.delegate = self
         mapView.showsUserLocation = true
         
-        let coordinateRegion = MKCoordinateRegion(center: LocationManager.shared.currentLocation, latitudinalMeters: 2000, longitudinalMeters: 2000)
+        let coordinateRegion = MKCoordinateRegion(center: locationManagerShared.currentLocation, latitudinalMeters: 1500, longitudinalMeters: 1500)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     

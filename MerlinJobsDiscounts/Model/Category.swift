@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct Category: Decodable {
+    let name: String
+    let icon: CategoryIcon
+}
+
+struct CategoryIcon: Decodable {
+    let suffix: String
+    let prefix: String
+}

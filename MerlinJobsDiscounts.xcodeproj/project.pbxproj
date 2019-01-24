@@ -7,21 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84E746B107477C1CB797650A /* Pods_MerlinJobsDiscounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4679FBFAFF140896F0FFD4DE /* Pods_MerlinJobsDiscounts.framework */; };
+		A06BCE1021F3B5DC0065319F /* ListAvailablePlacesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BCE0F21F3B5DC0065319F /* ListAvailablePlacesCollectionViewCell.swift */; };
+		A06BCE1421F3C0D10065319F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BCE1321F3C0D10065319F /* Extensions.swift */; };
+		A06BCE1621F3C4090065319F /* ListAvailablePlacesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BCE1521F3C4090065319F /* ListAvailablePlacesCollectionViewController.swift */; };
+		A06BCE1821F3C5360065319F /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BCE1721F3C5360065319F /* CustomImageView.swift */; };
+		A06BCE1A21F3C7950065319F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BCE1921F3C7950065319F /* Constants.swift */; };
+		A0791B9121F4E33F0051175C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0791B9021F4E33F0051175C /* MapKit.framework */; };
+		A0791B9521F6764C0051175C /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791B9421F6764C0051175C /* AnnotationView.swift */; };
+		A0791B9721F6776A0051175C /* PinCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791B9621F6776A0051175C /* PinCustomView.swift */; };
+		A0791B9A21F6B4DC0051175C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791B9921F6B4DC0051175C /* Place.swift */; };
+		A0791B9C21F6B4FE0051175C /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791B9B21F6B4FE0051175C /* Photo.swift */; };
+		A0791B9E21F6B5150051175C /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791B9D21F6B5150051175C /* Venue.swift */; };
+		A0791BA021F6B5270051175C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791B9F21F6B5270051175C /* Category.swift */; };
+		A0791BA221F6B5350051175C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791BA121F6B5350051175C /* Location.swift */; };
+		A0791BA421F6B6CB0051175C /* PlacePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791BA321F6B6CB0051175C /* PlacePin.swift */; };
+		A0791BA621F6C32F0051175C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791BA521F6C32F0051175C /* Helpers.swift */; };
+		A0791BA921F6DB6B0051175C /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0791BA821F6DB6B0051175C /* SF-UI-Display-Bold.otf */; };
+		A0791BAC21F6DBB50051175C /* SF-UI-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0791BAA21F6DBB50051175C /* SF-UI-Display-Semibold.otf */; };
+		A0791BAD21F6DBB50051175C /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0791BAB21F6DBB50051175C /* SF-UI-Display-Regular.otf */; };
+		A0791BAF21F6F4150051175C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791BAE21F6F4150051175C /* DataService.swift */; };
+		A0791BB221F75DE40051175C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0791BB121F75DE40051175C /* LocationManager.swift */; };
 		A0C8162921EF8CCA00B88876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8162821EF8CCA00B88876 /* AppDelegate.swift */; };
-		A0C8162B21EF8CCA00B88876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8162A21EF8CCA00B88876 /* ViewController.swift */; };
 		A0C8162E21EF8CCA00B88876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C8162C21EF8CCA00B88876 /* Main.storyboard */; };
 		A0C8163021EF8CD100B88876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C8162F21EF8CD100B88876 /* Assets.xcassets */; };
 		A0C8163321EF8CD100B88876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C8163121EF8CD100B88876 /* LaunchScreen.storyboard */; };
+		A0C8163B21EF98F800B88876 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8163A21EF98F800B88876 /* MainTabBarController.swift */; };
+		A0C8163F21EF99F400B88876 /* MapAvailablePlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8163E21EF99F400B88876 /* MapAvailablePlacesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D64F4BC65C22070719EC372 /* Pods-MerlinJobsDiscounts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerlinJobsDiscounts.release.xcconfig"; path = "Pods/Target Support Files/Pods-MerlinJobsDiscounts/Pods-MerlinJobsDiscounts.release.xcconfig"; sourceTree = "<group>"; };
+		4679FBFAFF140896F0FFD4DE /* Pods_MerlinJobsDiscounts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerlinJobsDiscounts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1F8D14690284087127B218 /* Pods-MerlinJobsDiscounts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerlinJobsDiscounts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MerlinJobsDiscounts/Pods-MerlinJobsDiscounts.debug.xcconfig"; sourceTree = "<group>"; };
+		A06BCE0F21F3B5DC0065319F /* ListAvailablePlacesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAvailablePlacesCollectionViewCell.swift; sourceTree = "<group>"; };
+		A06BCE1321F3C0D10065319F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A06BCE1521F3C4090065319F /* ListAvailablePlacesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAvailablePlacesCollectionViewController.swift; sourceTree = "<group>"; };
+		A06BCE1721F3C5360065319F /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		A06BCE1921F3C7950065319F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A0791B9021F4E33F0051175C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A0791B9421F6764C0051175C /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		A0791B9621F6776A0051175C /* PinCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCustomView.swift; sourceTree = "<group>"; };
+		A0791B9921F6B4DC0051175C /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		A0791B9B21F6B4FE0051175C /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		A0791B9D21F6B5150051175C /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		A0791B9F21F6B5270051175C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A0791BA121F6B5350051175C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A0791BA321F6B6CB0051175C /* PlacePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePin.swift; sourceTree = "<group>"; };
+		A0791BA521F6C32F0051175C /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A0791BA821F6DB6B0051175C /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
+		A0791BAA21F6DBB50051175C /* SF-UI-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Semibold.otf"; sourceTree = "<group>"; };
+		A0791BAB21F6DBB50051175C /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		A0791BAE21F6F4150051175C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A0791BB121F75DE40051175C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A0C8162521EF8CCA00B88876 /* MerlinJobsDiscounts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerlinJobsDiscounts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C8162821EF8CCA00B88876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0C8162A21EF8CCA00B88876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0C8162D21EF8CCA00B88876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0C8162F21EF8CD100B88876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C8163221EF8CD100B88876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0C8163421EF8CD100B88876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C8163A21EF98F800B88876 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A0C8163E21EF99F400B88876 /* MapAvailablePlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAvailablePlacesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +75,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0791B9121F4E33F0051175C /* MapKit.framework in Frameworks */,
+				84E746B107477C1CB797650A /* Pods_MerlinJobsDiscounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DF90AFBFE38302468C103A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F8D14690284087127B218 /* Pods-MerlinJobsDiscounts.debug.xcconfig */,
+				0D64F4BC65C22070719EC372 /* Pods-MerlinJobsDiscounts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A06BCE1121F3C0B60065319F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A0791BA721F6DAF00051175C /* Fonts */,
+				A06BCE1221F3C0C20065319F /* Utils */,
+				A0791BB121F75DE40051175C /* LocationManager.swift */,
+				A06BCE1921F3C7950065319F /* Constants.swift */,
+				A0791B9621F6776A0051175C /* PinCustomView.swift */,
+				A0791B9421F6764C0051175C /* AnnotationView.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A06BCE1221F3C0C20065319F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A06BCE1321F3C0D10065319F /* Extensions.swift */,
+				A06BCE1721F3C5360065319F /* CustomImageView.swift */,
+				A0791BA521F6C32F0051175C /* Helpers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A0791B9821F6B4CA0051175C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0791B9921F6B4DC0051175C /* Place.swift */,
+				A0791B9B21F6B4FE0051175C /* Photo.swift */,
+				A0791B9D21F6B5150051175C /* Venue.swift */,
+				A0791B9F21F6B5270051175C /* Category.swift */,
+				A0791BA121F6B5350051175C /* Location.swift */,
+				A0791BA321F6B6CB0051175C /* PlacePin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0791BA721F6DAF00051175C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A0791BA821F6DB6B0051175C /* SF-UI-Display-Bold.otf */,
+				A0791BAB21F6DBB50051175C /* SF-UI-Display-Regular.otf */,
+				A0791BAA21F6DBB50051175C /* SF-UI-Display-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A0791BB021F6F4420051175C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A0791BAE21F6F4150051175C /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A0791BB321F7657B0051175C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A06BCE0F21F3B5DC0065319F /* ListAvailablePlacesCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0791BB421F7658F0051175C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8163A21EF98F800B88876 /* MainTabBarController.swift */,
+				A0C8163E21EF99F400B88876 /* MapAvailablePlacesViewController.swift */,
+				A06BCE1521F3C4090065319F /* ListAvailablePlacesCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		A0C8161C21EF8CCA00B88876 = {
 			isa = PBXGroup;
 			children = (
 				A0C8162721EF8CCA00B88876 /* MerlinJobsDiscounts */,
 				A0C8162621EF8CCA00B88876 /* Products */,
+				9DF90AFBFE38302468C103A5 /* Pods */,
+				A2012BC97E3F45A53A0EE43A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +185,27 @@
 		A0C8162721EF8CCA00B88876 /* MerlinJobsDiscounts */ = {
 			isa = PBXGroup;
 			children = (
+				A0791BB421F7658F0051175C /* Controller */,
+				A0791BB321F7657B0051175C /* View */,
+				A0791B9821F6B4CA0051175C /* Model */,
+				A0791BB021F6F4420051175C /* Service */,
+				A06BCE1121F3C0B60065319F /* Supporting files */,
 				A0C8162821EF8CCA00B88876 /* AppDelegate.swift */,
-				A0C8162A21EF8CCA00B88876 /* ViewController.swift */,
 				A0C8162C21EF8CCA00B88876 /* Main.storyboard */,
 				A0C8162F21EF8CD100B88876 /* Assets.xcassets */,
 				A0C8163121EF8CD100B88876 /* LaunchScreen.storyboard */,
 				A0C8163421EF8CD100B88876 /* Info.plist */,
 			);
 			path = MerlinJobsDiscounts;
+			sourceTree = "<group>";
+		};
+		A2012BC97E3F45A53A0EE43A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0791B9021F4E33F0051175C /* MapKit.framework */,
+				4679FBFAFF140896F0FFD4DE /* Pods_MerlinJobsDiscounts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C8163721EF8CD100B88876 /* Build configuration list for PBXNativeTarget "MerlinJobsDiscounts" */;
 			buildPhases = (
+				EED747FE28BBF3DD62B64CA1 /* [CP] Check Pods Manifest.lock */,
 				A0C8162121EF8CCA00B88876 /* Sources */,
 				A0C8162221EF8CCA00B88876 /* Frameworks */,
 				A0C8162321EF8CCA00B88876 /* Resources */,
+				752DAD1C789D267D39BF6B27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +242,11 @@
 				TargetAttributes = {
 					A0C8162421EF8CCA00B88876 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,19 +275,88 @@
 			files = (
 				A0C8163321EF8CD100B88876 /* LaunchScreen.storyboard in Resources */,
 				A0C8163021EF8CD100B88876 /* Assets.xcassets in Resources */,
+				A0791BAD21F6DBB50051175C /* SF-UI-Display-Regular.otf in Resources */,
+				A0791BAC21F6DBB50051175C /* SF-UI-Display-Semibold.otf in Resources */,
+				A0791BA921F6DB6B0051175C /* SF-UI-Display-Bold.otf in Resources */,
 				A0C8162E21EF8CCA00B88876 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		752DAD1C789D267D39BF6B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MerlinJobsDiscounts/Pods-MerlinJobsDiscounts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MerlinJobsDiscounts/Pods-MerlinJobsDiscounts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EED747FE28BBF3DD62B64CA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerlinJobsDiscounts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0C8162121EF8CCA00B88876 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C8162B21EF8CCA00B88876 /* ViewController.swift in Sources */,
+				A0791B9C21F6B4FE0051175C /* Photo.swift in Sources */,
+				A06BCE1A21F3C7950065319F /* Constants.swift in Sources */,
+				A06BCE1421F3C0D10065319F /* Extensions.swift in Sources */,
+				A06BCE1021F3B5DC0065319F /* ListAvailablePlacesCollectionViewCell.swift in Sources */,
+				A0C8163B21EF98F800B88876 /* MainTabBarController.swift in Sources */,
+				A0791BA421F6B6CB0051175C /* PlacePin.swift in Sources */,
+				A0C8163F21EF99F400B88876 /* MapAvailablePlacesViewController.swift in Sources */,
 				A0C8162921EF8CCA00B88876 /* AppDelegate.swift in Sources */,
+				A0791BA221F6B5350051175C /* Location.swift in Sources */,
+				A0791BAF21F6F4150051175C /* DataService.swift in Sources */,
+				A0791B9521F6764C0051175C /* AnnotationView.swift in Sources */,
+				A0791BA621F6C32F0051175C /* Helpers.swift in Sources */,
+				A06BCE1621F3C4090065319F /* ListAvailablePlacesCollectionViewController.swift in Sources */,
+				A06BCE1821F3C5360065319F /* CustomImageView.swift in Sources */,
+				A0791B9A21F6B4DC0051175C /* Place.swift in Sources */,
+				A0791B9E21F6B5150051175C /* Venue.swift in Sources */,
+				A0791B9721F6776A0051175C /* PinCustomView.swift in Sources */,
+				A0791BB221F75DE40051175C /* LocationManager.swift in Sources */,
+				A0791BA021F6B5270051175C /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +500,12 @@
 		};
 		A0C8163821EF8CD100B88876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1F8D14690284087127B218 /* Pods-MerlinJobsDiscounts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W7KDN9ZT24;
+				DEVELOPMENT_TEAM = 34FSBZG8LA;
 				INFOPLIST_FILE = MerlinJobsDiscounts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,17 +513,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.OmarTorres.MerlinJobsDiscounts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A0C8163921EF8CD100B88876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D64F4BC65C22070719EC372 /* Pods-MerlinJobsDiscounts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W7KDN9ZT24;
+				DEVELOPMENT_TEAM = 34FSBZG8LA;
 				INFOPLIST_FILE = MerlinJobsDiscounts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,8 +534,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.OmarTorres.MerlinJobsDiscounts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

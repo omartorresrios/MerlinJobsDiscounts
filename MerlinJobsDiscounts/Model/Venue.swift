@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct Venue: Decodable {
+    let id: String
+    let name: String
+    let categories: Array<Category>?
+    let location: Location
+}

@@ -21,7 +21,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
-                locationManager.startUpdatingLocation()
+        locationManager.startUpdatingLocation()
         
     }
     
@@ -43,7 +43,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
             return
         }
         
-        currentLocation = CLLocationCoordinate2D(latitude: -12.1204827, longitude: -77.0321204)//locations.last?.coordinate
+        currentLocation = locations.last?.coordinate
         locationManager.stopUpdatingLocation()
         
         NotificationCenter.default.post(name: updateCurrentLocationNotificationName, object: nil)
@@ -51,7 +51,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     }
     
     func showLocationAlert() {
-        let alert = UIAlertController(title: "Location Disabled", message: "Please enable location for Mr. Jitters", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Location Disabled", message: "Please enable location for MerlinJobsDiscounts", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
         UIApplication.shared.keyWindow?.rootViewController?.present(alert, animated: true, completion: nil)
     }

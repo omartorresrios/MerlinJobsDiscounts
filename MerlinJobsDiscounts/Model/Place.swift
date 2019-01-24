@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Place: Decodable {
+    let photo: Photo?
+    let venue: Venue
+}
