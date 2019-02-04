@@ -12,6 +12,7 @@ NearbyPlaces shows you the places closest to your location so you can enjoy anyt
 ## Technical characteristics
 * Swift.
 * Foursquare API.
+* Core Location.
 * MapKit.
 * Decodable, SwiftyJSON, Alamofire.
 * MVC design pattern.
